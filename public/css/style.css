@@ -1,4 +1,5 @@
 body {
+    background-color: lightblue;
     color: #333333;
     font-family: arial;
     max-width: 650px;
@@ -15,10 +16,11 @@ body {
 }
 
 footer {
-    color: #888888;
+    color: #333333;
     border-top: 1px solid #eeeeee;
     margin-top: 16px;
     padding: 16px 0;
+
 }
 
 header {
@@ -32,9 +34,13 @@ h1 {
 }
 
 header a {
-    color: #888888;
+    color: #333333;
     margin-right: 16px;
     text-decoration: none;
+}
+
+.weather-pic {
+    width: 175px;
 }
 
 .portrait {
